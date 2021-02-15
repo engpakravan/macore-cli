@@ -21,7 +21,7 @@ ${chalk.bgGreen("You're Application has Configured !!!")}
 * Database Name : ${chalk.green(newProjectData.database)}
 * Caching Name/Method : ${chalk.green(newProjectData.caching)}
                 `)
-                console.log(newProjectData)
+                console.log(newProjectData + "")
             })
     }
 
