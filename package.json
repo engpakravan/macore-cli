@@ -7,11 +7,12 @@
   "scripts": {
     "build": "tsc",
     "prebuild": "tsc",
-    "dev": "node ./dist/bin/macore.js"
+    "dev": "ts-node ./bin/macore.ts"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
     "@types/commander": "^2.12.2",
+    "@types/inquirer": "^7.3.1",
     "@types/node": "^14.14.28",
     "typescript": "*"
   },
@@ -30,6 +31,7 @@
   "homepage": "https://github.com/engpakravan/macoreCli#readme",
   "dependencies": {
     "chalk": "^4.1.0",
-    "commander": "^7.0.0"
+    "commander": "^7.0.0",
+    "inquirer": "^7.3.3"
   }
 }

@@ -3,7 +3,6 @@ import {CommanderStatic , Command} from "commander";
 
 export class NewCommand extends AbstractCommand {
     load(program: CommanderStatic) {
-        console.log("Commandnew")
         program
             .command("new [name]")
             .alias('n')

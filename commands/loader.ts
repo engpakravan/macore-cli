@@ -5,7 +5,6 @@ import {NewCommand} from "./command-new";
 
 export default class CommandLoader{
     public static load(program:CommanderStatic) : void{
-        console.log("Loading")
         new NewCommand(new NewAction()).load(program)
 
         this.invalidCommand(program)
